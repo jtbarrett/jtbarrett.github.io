@@ -12,17 +12,23 @@
     <title>Coaster</title>
     <style>
     body {
-      background: url('launch.png') no-repeat;
-      background-size:100%;
       width: 100vw;
       height: 100vh;
+      background-color: black;
       box-sizing: border-box;
       border: 0;
       padding: 0;
       margin: 0;
+      overflow: hidden;
+    }
+    .coaster img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover
     }
     </style>
   </head>
   <body>
+      <img src="launch.png" class="coaster" />
   </body>
 </html>
